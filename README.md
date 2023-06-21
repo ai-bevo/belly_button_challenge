@@ -36,7 +36,7 @@ Complete the following steps:
     - Use otu_labels for the text values.
 
 <p align="center">
-<img src="Images/bubble_chart.png" alt="bubble chart" width="1416" height="455">
+<img src="Images/bubble_chart.png" alt="bubble chart" width="909.27" height="292.17">
 </p>
 
 4. Display the sample metadata from the json data.
