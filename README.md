@@ -49,4 +49,4 @@ Complete the following steps:
 
 5. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
 
-    - You can view the dashboard at -- insert github.io page here -- 
+    - You can view the dashboard at <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
