@@ -8,17 +8,17 @@ Module # 14 - Belly Button Biodiversity
 
 ## Background 
 
-In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
+In this assignment, the goal is to build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ## Assignment Outline 
-Complete the following steps:
+To complete the dashboard I went through the following steps:
 
-1. Use the D3 library to read in samples.json from the URL 
+1. Used the D3 library to read in samples.json from the URL 
     - https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
 
-2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+2. Created a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
     - Use sample_values as the values for the bar chart.
     - otu_ids as the labels for the bar chart.
     - otu_labels as the hovertext for the chart.
@@ -27,7 +27,7 @@ Complete the following steps:
 <img src="Images/hw01.png" alt="bar chart" width="480" height="443">
 </p>
 
-3. Create a bubble chart that displays each sample.
+3. Created a bubble chart that displays each sample.
 
     - Use otu_ids for the x values.
     - Use sample_values for the y values.
@@ -39,7 +39,7 @@ Complete the following steps:
 <img src="Images/bubble_chart.png" alt="bubble chart" width="909.27" height="292.17">
 </p>
 
-4. Display the sample metadata from the json data.
+4. Generated a table to display the sample metadata from the json data.
     - Display each key-value pair from the metadata JSON object somewhere on the page.
 
 <p align="center">
@@ -47,6 +47,5 @@ Complete the following steps:
 </p>
 
 
-5. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
-
-    - You can view the dashboard at <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
+5. Added an interactive dropdown that updates all the plots when a new sample ID is selected.
+    - The dashboard I created can be viewed at the following link <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
