@@ -48,4 +48,5 @@ To complete the dashboard I went through the following steps:
 
 
 5. Added an interactive dropdown that updates all the plots when a new sample ID is selected.
-    - The dashboard I created can be viewed at the following link <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
+    - The dashboard I created can be viewed at the following link 
+    - <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
