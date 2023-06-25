@@ -50,3 +50,8 @@ To complete the dashboard I went through the following steps:
 5. Added an interactive dropdown that updates all the plots when a new sample ID is selected.
     - The dashboard I created can be viewed at the following link 
     - <a href="{{ url_for('Belly Button Challenge') }}">https://ai-bevo.github.io/belly_button_challenge/</a> 
+
+
+## Data References
+
+Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/Links to an   external site.
